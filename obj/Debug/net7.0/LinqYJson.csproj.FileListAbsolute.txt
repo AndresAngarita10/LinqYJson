@@ -1,0 +1,17 @@
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/bin/Debug/net7.0/LinqYJson
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/bin/Debug/net7.0/LinqYJson.deps.json
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/bin/Debug/net7.0/LinqYJson.runtimeconfig.json
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/bin/Debug/net7.0/LinqYJson.dll
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/bin/Debug/net7.0/LinqYJson.pdb
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/Debug/net7.0/LinqYJson.csproj.AssemblyReference.cache
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/Debug/net7.0/LinqYJson.GeneratedMSBuildEditorConfig.editorconfig
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/Debug/net7.0/LinqYJson.AssemblyInfoInputs.cache
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/Debug/net7.0/LinqYJson.AssemblyInfo.cs
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/Debug/net7.0/LinqYJson.csproj.CoreCompileInputs.cache
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/Debug/net7.0/LinqYJson.csproj.CopyComplete
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/Debug/net7.0/LinqYJson.dll
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/Debug/net7.0/refint/LinqYJson.dll
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/Debug/net7.0/LinqYJson.pdb
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/Debug/net7.0/LinqYJson.genruntimeconfig.cache
+/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/Debug/net7.0/ref/LinqYJson.dll

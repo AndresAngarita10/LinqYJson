@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/LinqYJson.csproj": {}
+  },
+  "projects": {
+    "/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/LinqYJson.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/LinqYJson.csproj",
+        "projectName": "LinqYJson",
+        "projectPath": "/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/LinqYJson.csproj",
+        "packagesPath": "/home/apolt01-001/.nuget/packages/",
+        "outputPath": "/home/apolt01-001/Documents/AndresAngaritaC#/clase08-11/a/LinqYJson/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/apolt01-001/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
