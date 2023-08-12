@@ -7,13 +7,13 @@ namespace LinqYJson.Entities;
         private string descripcion;
         public int Id 
         {
-            get { return id; }
-            set { id = value; }
+            get { return this.id; }
+            set { this.id = value; }
         }
         public string Descripcion
         {
-            get { return descripcion;}
-            set { descripcion = value;}
+            get { return this.descripcion;}
+            set { this.descripcion = value;}
         }
         public static void AddCategoria(){
             Categoria cat = new ();

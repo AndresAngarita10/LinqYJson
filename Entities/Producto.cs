@@ -61,7 +61,7 @@ using Newtonsoft.Json;
             get { return idCategoria;}
             set { idCategoria = value;}
         }
-        public void AddProducto(){
+        public static void AddProducto(){
             Producto p = new();
             Console.WriteLine("Ingrese el Id Producto");
             p.IdProducto = Console.ReadLine();

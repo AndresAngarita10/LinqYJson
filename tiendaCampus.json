@@ -3,6 +3,10 @@
     {
       "Id": 1,
       "Descripcion": "Carnes"
+    },
+    {
+      "Id": 2,
+      "Descripcion": "leches"
     }
   ],
   "Productos": []

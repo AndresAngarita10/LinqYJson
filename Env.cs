@@ -1,12 +1,13 @@
 
 
 using LinqYJson.Entities;
+using Newtonsoft.Json;
 
 namespace LinqYJson;
 
     public class Env
     {
-        private static string fileName = "tiendaCampus.jsom";
+        private static string fileName = "tiendaCampus.json";
         private static TiendaCampus tiendaCampus = new ();
         /* 
         private static List<Producto> productos = new();
@@ -27,6 +28,10 @@ namespace LinqYJson;
                 })?? new TiendaCampus();
             }
         }
+        public static void SaveDataJson<T>(T datos)where T : class{
+            string json = JsonConvert.SerializeObject(datos, Formatting.Indented);
+            File.WriteAllText(Env.FileName, json);
+        }
 
         public static bool ValidarFile(string fileName)
         {
@@ -39,15 +44,31 @@ namespace LinqYJson;
 
         public static void ImprimirData<T>(string titulo, IEnumerable<T> lista)
         {
+            bool header = false;
             Console.WriteLine("{0,-30}",titulo);
             foreach (var elemento in lista)
             {
                 Type tipoClase = elemento.GetType();
                 var propiedades = tipoClase.GetProperties();
-                foreach (var propiedad in propiedades)
+
+                if (header == false){
+                    foreach (var propiedad in propiedades)
+                    {
+                        Console.Write("{0,-20}", propiedad.Name);
+                    }
+                    header = true;
+                    Console.WriteLine();
+                }
+
+            /*   foreach (var propiedad in propiedades)
                 {
                     Console.WriteLine($"{propiedad.Name}: {propiedad.GetValue(elemento)}");
+                } */
+                foreach (var propiedad in propiedades)
+                {
+                    Console.Write("{0,-20}", propiedad.GetValue(elemento));
                 }
+                Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Blue;
             }
             Console.ReadKey();
